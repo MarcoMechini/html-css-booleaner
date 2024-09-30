@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="header"></header>
+    <header>
+        <div id="header-background"><img src="./img/logo.svg" alt=""></div>
+    </header>
 
     <main>
 
@@ -18,8 +20,8 @@
             <h1>Internet deve essere al servizion del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
             <p>Scritto da <span class="text-blue">The Booleaner</span><br> il 10/10/2020</p>
 
-            <img src="" alt="Tim Berners-Lee announcement">
-            <img src="" alt="Tim Berners-Lee selfie">
+            <img src="./img/tim-1.jpg" alt="Tim Berners-Lee announcement">
+            <img src="./img/tim-2.jpg" alt="Tim Berners-Lee selfie">
             <p>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>2nd Photo Wikipedia, by Paul
                 Clarke
             </p>
@@ -54,14 +56,14 @@
         <section>
             <table>
                 <thead>
-                    <tr>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
+                    <tr id="color-table">
+                        <th class="cell-width">Lorem ipsum dolor</th>
+                        <th class="cell-width">Lorem ipsum dolor</th>
                         <th>Lorem ipsum dolor</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="color-blue">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga laborum?
@@ -79,7 +81,7 @@
                             quod
                             tempora laboriosam consequuntur, veritatis sapiente!</td>
                     </tr>
-                    <tr>
+                    <tr class="color-blue">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga laborum?
@@ -91,14 +93,15 @@
                 </tbody>
             </table>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="highlighter">Tempora odit
+            <p class="final-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span
+                    class="highlighter">Tempora odit
                     accusantium numquam sapiente libero, sed laudantium earum nobis optio consequuntur nulla esse natus
                     doloribus maxime!</span> Molestiae provident delectus voluptas maxime.</p>
         </section>
         <footer>
             <span>Potrebbe interessarti</span>
-            <div>Lorem ipsum dolor</div>
-            <div>Lorem ipsum dolor</div>
+            <div class="img-monitor back-image">Lorem ipsum dolor</div>
+            <div class="img-graph back-image">Lorem ipsum dolor</div>
         </footer>
 
     </main>
