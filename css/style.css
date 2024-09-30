@@ -31,7 +31,7 @@ main {
                 HEADER
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 #header-background {
-    background-color: azure;
+    background-color: #18749e;
     background-image: url('../img/pattern.png');
     height: 180px;
 }
